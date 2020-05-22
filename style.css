@@ -1,0 +1,65 @@
+body{
+    background-color: #808080;
+}
+
+h1{
+    color: #ffff00;
+    background-color: #ff0000;
+    display: flex;
+    justify-content: center;
+}
+
+h3{
+    background-color:#ffa500 ;
+    color: #008000;
+}
+
+.pic{
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+}
+
+.picsub{
+    position: relative;
+    color: #00ffff;
+    justify-content: center;
+}
+.picsub p{
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    opacity: 0;
+}
+
+.picsub:hover p{
+    opacity: 1;
+}
+
+.picsub:hover img{
+    opacity: 0.5;
+}
+
+.options{
+    margin-left: 20px;
+}
+
+.Head{
+    background-color: #00ffff;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.footer{
+    justify-content: flex-end;
+}
+
+a:link{
+    color: #ffffff
+}
+
+a:visited{
+    color: #ffffff
+}
+
+
+/*    color: #ff0000;*/
